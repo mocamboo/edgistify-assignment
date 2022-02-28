@@ -89,3 +89,54 @@ body{
   color: rgb(49, 93, 116);
   font-size: 1.6rem;
 }
+
+.map-image{
+  display: flex;
+  min-height: 50vh;
+  background-color: rgb(49, 93, 116);;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  padding-bottom: 5rem;
+}
+.map-image img{
+  height: 40vh;
+}
+.xxx{
+ display: flex;
+}
+
+.trust{
+  background-color: rgb(49, 93, 116);
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trust-h1{
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: rgb(204, 200, 200);
+  padding-top:  4rem;
+  padding-bottom:  3rem;
+}
+.trust-brands{
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.b-img{
+  width: 100%;
+  height: auto;
+}
+.trust-icon{
+  padding: 4rem;
+  height: 80px;
+  width: 150px;
+}
